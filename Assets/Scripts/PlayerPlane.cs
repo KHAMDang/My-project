@@ -64,7 +64,6 @@ public class PlayerPlane : MonoBehaviour
 
     void Start()
     {
-        GameManager._cGM.StartGame();
     }
 
     void Update()

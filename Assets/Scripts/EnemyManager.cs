@@ -19,6 +19,7 @@ public class EnemyManager: MonoBehaviour
         if(enemyActives.Count <=0)
         {
             Debug.Log("Win Game");
+            GameManager._cGM.StopGame();
         }        
     }
 
